@@ -1,0 +1,11 @@
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src -ra"""
+
+[tool.coverage.report]
+fail_under=90
+show_missing=true
