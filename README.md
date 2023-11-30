@@ -1,6 +1,7 @@
 ![](docs/logo.png)
 
 [![Verify](https://github.com/ppsimatikas/chainbase_python_sdk/actions/workflows/verify.yml/badge.svg)](https://github.com/ppsimatikas/chainbase_python_sdk/actions/workflows/verify.yml)
+[![codecov](https://codecov.io/gh/ppsimatikas/chainbase_python_sdk/graph/badge.svg?token=8KV0MQHPIN)](https://codecov.io/gh/ppsimatikas/chainbase_python_sdk)
 
 ## A python SDK connecting you with the big blockchain data !
 
