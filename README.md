@@ -43,7 +43,7 @@ See more under [examples](./examples)
 
 ## Local development
 
-1. Clone: `git clone`
+1. Clone: `git clone git@github.com:ppsimatikas/chainbase_python_sdk.git`
 2. `cd ./chainbase_python_sdk`
 3. `make install_dev`
 
