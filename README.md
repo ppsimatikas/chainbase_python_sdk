@@ -1,5 +1,7 @@
 ![](docs/logo.png)
 
+[![Verify](https://github.com/ppsimatikas/chainbase_python_sdk/actions/workflows/verify.yml/badge.svg)](https://github.com/ppsimatikas/chainbase_python_sdk/actions/workflows/verify.yml)
+
 ## A python SDK connecting you with the big blockchain data !
 
 This python SDK is build to accelerate your development efforts in getting data from the big blockchains, by utilizing Chainbase's powerful data infrastructure.
