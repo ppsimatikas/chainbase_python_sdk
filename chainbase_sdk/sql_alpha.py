@@ -15,6 +15,7 @@ MAP_TYPES = {
     "TIMESTAMP": "datetime64[ns]",
     "DATETIME": "datetime64[ns]",
     "INT": "object",
+    "CHAR": "object",
 }
 
 
