@@ -8,7 +8,7 @@ setup(
     url="https://github.com/ppsimatikas/chainbase_python_sdk",
     packages=find_packages(exclude=["tests"]),
     install_requires=[
-        "requests==2.31.0",
+        "requests==2.32.3",
         "pandas==2.1.3"
     ],
     license="MIT",
