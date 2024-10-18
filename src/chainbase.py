@@ -2,6 +2,7 @@ import os
 from typing import Optional
 
 from src.sql import ChainbaseSQL
+from src.sql_alpha import ChainbaseSQLAlpha
 
 MISSING_API_KEY_ERROR = """
 
@@ -50,3 +51,4 @@ class Chainbase:
             raise ValueError(MISSING_API_KEY_ERROR)
 
         self.sql = ChainbaseSQL(api_key)
+        self.sql_alpha = ChainbaseSQLAlpha(api_key)

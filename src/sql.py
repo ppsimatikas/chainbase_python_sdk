@@ -51,7 +51,7 @@ class ChainbaseSQL(ChainbaseAPI):
         Args:
             api_key (str): The API key for authenticating with the Chainbase API.
         """
-        super().__init__("https://api.chainbase.online/v1/dw/query", api_key)
+        super().__init__("https://api.chainbase.online/v1/dw/query", api_key, 0)
 
     def _get_all_pages(
         self, body, results: Optional[List[Dict[str, str]]] = None
