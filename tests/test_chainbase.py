@@ -1,8 +1,8 @@
 import os
 import unittest
 
-from src.chainbase import MISSING_API_KEY_ERROR, Chainbase
-from src.sql import ChainbaseSQL
+from chainbase_sdk.chainbase import MISSING_API_KEY_ERROR, Chainbase
+from chainbase_sdk.sql import ChainbaseSQL
 
 
 class TestChainbase(unittest.TestCase):

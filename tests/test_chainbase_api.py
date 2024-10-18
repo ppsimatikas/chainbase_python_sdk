@@ -3,7 +3,7 @@ import unittest
 import requests
 import requests_mock
 
-from src.chainbase_api import DEFAULT_ERROR, ChainbaseAPI
+from chainbase_sdk.chainbase_api import DEFAULT_ERROR, ChainbaseAPI
 
 
 @requests_mock.mock()

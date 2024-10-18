@@ -3,7 +3,7 @@ from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
-from src.chainbase_api import ChainbaseAPI
+from chainbase_sdk.chainbase_api import ChainbaseAPI
 
 MAP_TYPES = {
     "Int8": "int64",

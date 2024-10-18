@@ -1,8 +1,8 @@
 import os
 from typing import Optional
 
-from src.sql import ChainbaseSQL
-from src.sql_alpha import ChainbaseSQLAlpha
+from chainbase_sdk.sql import ChainbaseSQL
+from chainbase_sdk.sql_alpha import ChainbaseSQLAlpha
 
 MISSING_API_KEY_ERROR = """
 

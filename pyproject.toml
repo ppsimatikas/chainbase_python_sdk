@@ -1,3 +1,7 @@
+[project]
+name = "chainbase_sdk"
+dynamic = ["version", "description", "license", "dependencies"]
+
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"

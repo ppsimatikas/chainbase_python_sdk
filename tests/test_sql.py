@@ -4,7 +4,7 @@ from unittest.mock import call, patch
 import pandas as pd
 from pandas.testing import assert_frame_equal
 
-from src.sql import ChainbaseSQL
+from chainbase_sdk.sql import ChainbaseSQL
 
 
 @patch("src.sql.ChainbaseAPI.post")

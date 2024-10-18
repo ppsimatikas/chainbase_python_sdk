@@ -1,6 +1,6 @@
 import pytest
 
-from src.chainbase import Chainbase
+from chainbase_sdk.chainbase import Chainbase
 from tests.e2e.tables import tables
 
 
