@@ -5,14 +5,14 @@ install_dev:
 	pip3 install -r ./requirements_dev.txt
 
 lint:
-	black --check src/ tests/
-	isort --check-only src/ tests/
-	flake8 src/ tests/
+	black --check chainbase_sdk/ tests/
+	isort --check-only chainbase_sdk/ tests/
+	flake8 chainbase_sdk/ tests/
 
 format:
-	black src/ tests/
-	isort src/ tests/
-	flake8 src/ tests/
+	black chainbase_sdk/ tests/
+	isort chainbase_sdk/ tests/
+	flake8 chainbase_sdk/ tests/
 
 test:
 	pytest -v

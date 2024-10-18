@@ -1,6 +1,6 @@
 [project]
 name = "chainbase_sdk"
-dynamic = ["version", "description", "license", "dependencies"]
+dynamic = ["version", "description", "license", "dependencies", "authors"]
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
@@ -15,7 +15,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src -ra"""
+--cov chainbase_sdk -ra"""
 
 [tool.coverage.report]
 fail_under=90
