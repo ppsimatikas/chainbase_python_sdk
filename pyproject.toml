@@ -4,8 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chainbase_python_sdk"
-readme = "README.md"
-dynamic = ["dependencies", "version"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = "requirements.txt"}
