@@ -9,12 +9,13 @@ MAP_TYPES = {
     "bigint": "int64",
     "varchar": "object",
     "timestamp": "datetime64[ns]",
-    "integer": "object",
+    "integer": "int64",
     "BIGINT": "int64",
     "VARCHAR": "object",
     "TIMESTAMP": "datetime64[ns]",
     "DATETIME": "datetime64[ns]",
-    "INT": "object",
+    "INT": "int64",
+    "CHAR": "object",
 }
 
 

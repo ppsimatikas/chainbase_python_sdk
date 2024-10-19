@@ -7,7 +7,7 @@ from pandas.testing import assert_frame_equal
 from chainbase_sdk.sql import ChainbaseSQL
 
 
-@patch("src.sql.ChainbaseAPI.post")
+@patch("chainbase_sdk.sql.ChainbaseAPI.post")
 class TestSQL(unittest.TestCase):
     def setUp(self):
         self.url = "https://api.chainbase.online/v1/dw/query"
